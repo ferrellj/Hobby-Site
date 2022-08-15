@@ -29,6 +29,9 @@ h1{
     color: black;
     font-weight: 700;
     margin-left:10%;
+    font-size: 30pt;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .secondaryNav{
     display: flex;
@@ -37,10 +40,11 @@ h1{
     background-color: #ffffff;
     font-size: 14pt;
     font-family: roboto, sans-serif; 
+    margin-top: 5%;
 }
 .secondaryNav a{
     font-weight: 500;
-    font-size: 30pt;
+    font-size: 20pt;
     color: black;
   }
     .secondaryNav a:hover {
