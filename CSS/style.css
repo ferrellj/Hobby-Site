@@ -7,6 +7,6 @@ h1{
     height: 100px;
 
 }
-.navbar-brand{
-    height: 80px;
+.jumbotron{
+    background-image: url(..IMAGES\hero.jpg);
 }
