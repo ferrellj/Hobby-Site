@@ -26,3 +26,81 @@ h1{
     display: flex;
     align-items: flex-start;
 }
+.secondaryNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    font-size: 14pt;
+    font-family: roboto, sans-serif; 
+}
+.secondaryNav a{
+    font-weight: 500;
+    font-size: 30pt;
+    color: black;
+  }
+    .secondaryNav a:hover {
+      font-weight: 700;
+      color: black;
+    }
+    .start-container{
+        background-color:#bce5fb;
+        margin: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px;
+
+    }
+.startImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+
+}
+.step2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.step3{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.step4{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.step5{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+#tips{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+width: 80%;
+margin-left: 10%;
+margin-top: 20px;
+background-color: #fcb2bd;
+}
+#like{
+    margin-left: 10%;
+    margin-top: 20px;
+    background-color:#839a7f;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1%;
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
