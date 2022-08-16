@@ -1,14 +1,24 @@
+
+let returnLink2 = document.querySelector("#returnLink2");
+let secondaryHeader = document.querySelector(".secondaryHeader");
+
+returnLink2.addEventListener("click", navigatesecdonaryHeader, false);
+function navigatesecdonaryHeader(e){
+  secondaryHeader.scrollIntoView({
+    behavior:"smooth"
+  });
+}
+
+
 let returnLink = document.querySelector("#returnLink");
-let secondaryNav = document.querySelector(".secondaryNav")
+let secondaryNav = document.querySelector(".secondaryNav");
 
 returnLink.addEventListener("click",navigatesecondaryNav,false);
 function navigatesecondaryNav(e){
   secondaryNav.scrollIntoView({
     behavior:"smooth"
-  })
+  });
 }
-
-
 
 let startLink = document.querySelector("#startLink");
 let getStarted = document.querySelector("#getStarted");
