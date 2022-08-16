@@ -61,6 +61,27 @@ h1{
         padding: 20px;
 
     }
+
+    button{
+        background-color:#357b75;
+        color: white;
+        border-radius: 5%;
+        width: 400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+    button:hover{
+        background-color:#275854;
+        color: white;
+    }
+    button:active{
+        background-color: #275854;
+        color: white;
+    }
+  .card-title{
+    display: flex;
+    justify-content: space-between;
+  }
 .startImg{
     display: flex;
     justify-content: center;
@@ -103,7 +124,7 @@ background-color: #fcb2bd;
 #like{
     margin-left: 10%;
     margin-top: 20px;
-    background-color:#839a7f;
+    background-color:#b71f1a;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 1%;

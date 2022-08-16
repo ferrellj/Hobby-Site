@@ -1,3 +1,15 @@
+let returnLink = document.querySelector("#returnLink");
+let secondaryNav = document.querySelector(".secondaryNav")
+
+returnLink.addEventListener("click",navigatesecondaryNav,false);
+function navigatesecondaryNav(e){
+  secondaryNav.scrollIntoView({
+    behavior:"smooth"
+  })
+}
+
+
+
 let startLink = document.querySelector("#startLink");
 let getStarted = document.querySelector("#getStarted");
 
@@ -26,3 +38,4 @@ function navigatelike(e){
         behavior:"smooth"
     })
 }
+
